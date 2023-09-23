@@ -19,14 +19,10 @@ git log
 ```
 
 ```
-git switch -c dev
-echo "graphics content" >> graphics.ino
+git switch main
+nano dht20.ino
 git add .
-git commit -m "graphics"
-echo "wifi content" >> wifi.h
-git add wifi.h
-git commit -m "wifi.h"
-git log
+git commit -m "dht20 edit"
 ```
 
 ```
